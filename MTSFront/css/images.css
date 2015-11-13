@@ -1,0 +1,34 @@
+
+
+/* 
+*	Images in thumbnails styles 
+*/
+.thumbnail {
+    padding: 0 0 0 0;
+    border: none;
+    border-radius: 0;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+
+.picture_blured {
+	/* px px px #, -px -px px #, -px px px #, px -px px #,
+
+
+	*/
+	box-shadow:2px 2px 0px #EDEDED, -2px -2px 0px #EDEDED, -2px 2px 0px #EDEDED, 2px -2px 0px #EDEDED,
+				4px 4px 0px #DBDCDC, -4px -4px 0px #DBDCDC, -4px 4px 0px #DBDCDC, 4px -4px 0px #DBDCDC,
+				6px 6px 1px #CACACA, -6px -6px 1px #CACACA, -6px 6px 1px #CACACA, 6px -6px 1px #CACACA,
+				8px 8px 1px #B8B8B9, -8px -8px 1px #B8B8B9, -8px 8px 1px #B8B8B9, 8px -8px 1px #B8B8B9,
+				10px 10px 2px #A6A6A7, -10px -10px 2px #A6A6A7, -10px 10px 2px #A6A6A7, 10px -10px 2px #A6A6A7,
+				12px 12px 2px #949596, -12px -12px 2px #949596, -12px 12px 2px #949596, 12px -12px 2px #949596,
+				14px 14px 3px #828384, -14px -14px 3px #828384, -14px 14px 3px #828384, 14px -14px 3px #828384,
+				16px 16px 3px #707173, -16px -16px 3px #707173, -16px 16px 3px #707173, 16px -16px 3px #707173,
+				18px 18px 4px #5F5F61, -18px -18px 4px #5F5F61, -18px 18px 4px #5F5F61, 18px -18px 4px #5F5F61,
+				20px 20px 4px #4D4E50, -20px -20px 4px #4D4E50, -20px 20px 4px #4D4E50, 20px -20px 4px #4D4E50;
+}

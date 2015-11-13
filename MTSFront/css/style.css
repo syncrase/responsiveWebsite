@@ -1,0 +1,96 @@
+
+
+/*
+*	selectionned text color
+*/
+
+::-moz-selection {
+  color: #726656;
+  background: #C7FC52;
+}
+::selection {
+  color: #726656;
+  background: #C7FC52;
+}
+
+
+/* 
+*	General style
+*/
+
+
+body {
+	line-height: 1.8;
+    /*color: #818181;*/
+}
+
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    /*color: #303030;*/
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    /*color: #303030;*/
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+
+
+
+/* 
+*	Custom style of containers 
+*/
+.container-fluid {
+    padding: 60px 50px;
+	text-align: center;
+}
+
+/* Gradient color1 - color2 - color1 */ 
+hr.separator { 
+	border: 0; 
+	height: 1px; 
+	background: #333; 
+	background-image: linear-gradient(to right, #F2F2F2, #333, #F2F2F2);
+}
+
+.footer-contact-form div label {
+	text-align:left;
+}
+
+
+/* 
+*	Header style 
+*/
+.jumbotron {
+	padding: 100px 25px;
+}
+#indexHeader{
+	margin-top:50px;
+	background: url(../images/logo_full.png) no-repeat;
+	background-size: contain;
+	/*background-attachment: fixed;*//* Allow to keep the background fixed :-) => different fixed picture fonction of the position */
+	background-position: center;
+}
+.who-are-we {
+	background: url(../images/who-are-we.png) no-repeat;
+	background-size: auto auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

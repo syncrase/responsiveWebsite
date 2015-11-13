@@ -1,0 +1,12 @@
+
+/* 
+*	Fonts specifications 
+*/
+@font-face {
+  font-family: 'mvboli';
+  src: url('mvboli.ttf') format('truetype');
+}
+
+* {
+	font-family:Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}

@@ -1,0 +1,161 @@
+
+
+
+/* Green on Grey */
+.contrast-A {
+	color: #C5FE4D;
+	background-color: #3B3C3E;
+}
+.contrast-A h1 {
+    color: #FFFFFF;
+}
+.contrast-A h2 {
+    color: #DFFF9C;
+}
+.contrast-A h3 {
+    color: #C8FF52;
+}
+.contrast-A h4 {
+    color: #AEFF00;
+}
+.contrast-A .btn {
+	color: #C5FE4D;/* font color */
+	background-color: #353638;/* shaded background color */
+	box-shadow: 1px 1px 1px rgb(0,0,0);/* black shade with a 1px blur*/
+	border-color:#3B3C3E;/* background color */
+}
+.contrast-A .btn:hover {
+	color: #3B3C3E;/* background color */
+	box-shadow: 1px 1px 1px rgba(255,255,255,0.9);/* white shade */
+	background-color: rgba(255,255,255,0.9);/* white background with blur (grey effect) */
+}
+.contrast-A .inscription {
+    background-color: #646669 !important;
+	/* dégradé du gris clair au gris foncé
+en utilisant à chaque fois 4 box shadow pour les bords haut & gauche et bas & droit et les angles en bas à gauche et en haut à droite
+ie : Xpx Xpx Xpx #XXXXXX, -Xpx -Xpx Xpx #XXXXXX, -Xpx Xpx Xpx #XXXXXX, Xpx -Xpx Xpx #XXXXXX;  <-- pour chacune des couleurs du dégradé
+avec à chaque fois une distance plus grande de la box originale	
+du plus sombre au plus clair par pas de 4px 
+(3B3C3E)
+414244 - 24
+47484a - 20
+4d4e51 - 16
+535457 - 12
+595a5d - 8
+5e6063 - 4
+(646669)
+px px 4px #, -px -px 4px #, -px px 4px #, px -px 4px #,
+
+ / \
+/_!_\ ATTENTION : il faut partir de l'intérieur pour aller vers l'extérieur!!!
+*/
+	box-shadow: 4px 4px 0px #5e6063, -4px -4px 0px #5e6063, -4px 4px 0px #5e6063, 4px -4px 0px #5e6063,
+				8px 8px 1px #595a5d, -8px -8px 1px #595a5d, -8px 8px 1px #595a5d, 8px -8px 1px #595a5d,
+				12px 12px 2px #535457, -12px -12px 2px #535457, -12px 12px 2px #535457, 12px -12px 2px #535457,
+				16px 16px 3px #4d4e51, -16px -16px 3px #4d4e51, -16px 16px 3px #4d4e51, 16px -16px 3px #4d4e51,
+				20px 20px 4px #47484a, -20px -20px 4px #47484a, -20px 20px 4px #47484a, 20px -20px 4px #47484a,
+				24px 24px 5px #414244, -24px -24px 5px #414244, -24px 24px 5px #414244, 24px -24px 5px #414244;
+}
+/*.contrast-A .inscription div h3 {
+    color: #FFFFFF;
+}*/
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+**%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+**%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+
+/* Grey on White */
+.contrast-B {
+	color: #3B3C3E;
+	background-color: #FFFFFF;
+}
+.contrast-B h1 {
+    color: #4E661B;
+}
+.contrast-B h2 {
+    color: #384A14;
+}
+.contrast-B h3 {
+    color: #232E0C;
+}
+.contrast-B h4 {
+    color: #000000;
+}
+.contrast-B .btn {
+	color: #3B3C3E;/* font color */
+	background-color: #FFFFFF;/* shaded background color */
+	box-shadow: 1px 1px 1px rgb(0,0,0);/* black shade with a 1px blur*/
+	border-color:#3B3C3E;/* background color */
+}
+.contrast-B .btn:hover {
+	background-color: #3B3C3E;
+	color: #FFFFFF;/* background color */
+	box-shadow: 1px 1px 1px rgba(204,204,204,0.9);/* black shade */
+	text-shadow: 2px 2px 1px rgba(0,0,0,1);/* black shade */
+}
+.contrast-B .inscription {
+	/*
+	*	max tint color of 3B3C3E -> 76787c
+	*	6th tint color of 76787c -> c0c1c3
+	*/
+    background-color: #C0C1C3 !important;
+	/*text-shadow: 1px 1px 0px #000000;*/
+	box-shadow: 2px 2px 0px #C6C7C8, -2px -2px 0px #C6C7C8, -2px 2px 0px #C6C7C8, 2px -2px 0px #C6C7C8,
+				4px 4px 1px #CBCCCE, -4px -4px 1px #CBCCCE, -4px 4px 1px #CBCCCE, 4px -4px 1px #CBCCCE,
+				6px 6px 2px #D1D2D3, -6px -6px 2px #D1D2D3, -6px 6px 2px #D1D2D3, 6px -6px 2px #D1D2D3,
+				8px 8px 3px #D7D8D9, -8px -8px 3px #D7D8D9, -8px 8px 3px #D7D8D9, 8px -8px 3px #D7D8D9,
+				10px 10px 4px #DDDDDE, -10px -10px 4px #DDDDDE, -10px 10px 4px #DDDDDE, 10px -10px 4px #DDDDDE,
+				12px 12px 5px #E2E3E4, -12px -12px 5px #E2E3E4, -12px 12px 5px #E2E3E4, 12px -12px 5px #E2E3E4,
+				14px 14px 6px #E8E8E9, -14px -14px 6px #E8E8E9, -14px 14px 6px #E8E8E9, 14px -14px 6px #E8E8E9,
+				16px 16px 7px #EEEEEF, -16px -16px 7px #EEEEEF, -16px 16px 7px #EEEEEF, 16px -16px 7px #EEEEEF,
+				18px 18px 8px #F4F4F4, -18px -18px 8px #F4F4F4, -18px 18px 8px #F4F4F4, 18px -18px 8px #F4F4F4,
+				20px 20px 9px #F9F9FA, -20px -20px 9px #F9F9FA, -20px 20px 9px #F9F9FA, 20px -20px 9px #F9F9FA;
+}
+/*.contrast-B .inscription div h3 {
+    color: #FFFFFF;
+}*/
+
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+**%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+**%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+
+/*
+.contrast-C-background {
+	background-color: #809D46;
+}*/
+/*
+.contrast-C-font {
+	color: #0B2533;
+	text-shadow: 2px 2px 1px rgba(0,0,0,1);*//* black shade *//*
+}*/
+/* Mr. Kaki 809D46 deleted
+remplaced by logo's Green*/
+.contrast-C {
+	color: #0B2533;
+	background-color: #C5FE4D;
+}
+/* Mr. Marin blue */
+.contrast-C li a {
+    /*color: #0B2533 !important;*/
+	/*text-shadow: 2px 2px 1px rgba(0,0,0,1);*//* black shade */
+	text-shadow: 0.3px 0.3px 0 #164A66,
+				0.6px 0.6px 0 #10384D,
+				0.9px 0.9px 0 #0C2938,
+				1.2px 1.2px 0 #0A212E,
+				1.5px 1.5px 0 #000000;
+}
+.contrast-C li a:hover, .contrast-C li.active a {
+    /*color: black;*/
+    background-color: #fff !important;
+	text-shadow: 0px 0px 15px #3B3C3E;
+}
+
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+**%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+**%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+

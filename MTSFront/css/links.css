@@ -1,0 +1,26 @@
+/* Links styles */
+.common-link {
+	text-decoration: none;
+	color: inherit;
+	font-style: italic;
+}
+.common-link:hover {
+	text-decoration: none;
+	color:inherit;
+	-moz-text-decoration-line: underline; /* Code for Firefox */
+    text-decoration-line: underline;
+}
+
+
+/* Footer links */
+.related-links {
+	list-style-type: none;
+	padding-left:0px;
+}
+.related-links li a {
+	text-decoration: none;
+	color:inherit;
+}
+.related-links li a:hover {
+	color:pink;
+}

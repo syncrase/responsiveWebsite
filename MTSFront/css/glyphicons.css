@@ -1,0 +1,32 @@
+/* 
+*	Logos styles 
+
+Usage : 
+<span class="glyphicon glyphicon-chevron-up"></span>
+
+see available icons : http://getbootstrap.com/components/
+
+*/
+.logo {
+    font-size: 200px;
+	color: #726656;
+}
+
+
+.logo-small {
+    color: #726656;
+    font-size: 50px;
+}
+
+
+
+/* 
+*	Back to the top arrow 
+*/
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #726656;
+}
+
+
